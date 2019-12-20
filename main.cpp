@@ -15,8 +15,7 @@
 int main()
 {
 	//factSum();
-	pathSum();
-
+	//pathSum();
 	return 0;
 }
 

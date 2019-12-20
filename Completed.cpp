@@ -459,7 +459,8 @@ void CollatzSequence()
 }
 
 // Problem 015
-// Solution is combinatorics. 40 moves, picking 20 in one direction determs the solution, hence 40 choose 20 (2n choose n)
+// Solution is combinatorics. 40 moves, picking 20 in one direction determs the solution, 
+// hence 40 choose 20 (2n choose n). Close to catalan numbers.
 
 // Problem 016
 void digitSum()
@@ -474,8 +475,10 @@ void digitSum()
    cout << sum << endl;
 }
 
+// Problem 017
 
 
+// Problem 018
 
 
 // Problem 019
@@ -551,9 +554,9 @@ void sundays()
    int month; // Jan = 0
    int count = 0;
    int monthSum;
-   int dayCount= 0;
+   int dayCount = 0;
 
-   // Tuesday = 0, W = 1, ... , Sunday = 5, Monday = 6
+   // Tuesday = 0, Wednesday = 1, ... , Sunday = 5, Monday = 6
    for(size_t year = 1; year <= 100; ++year)
    {
       if(year%4 != 0)
@@ -570,16 +573,18 @@ void sundays()
       {
          for(month = 0; month <= 11; ++month)
          {
-            monthSum = dayCount + intermediateSum(month, false);
+            monthSum = dayCount + intermediateSum(month, true);
             if(monthSum % 7 == 5)
                ++count;
          }
          dayCount += 366;
       }
    }
-   cout << endl << --count << endl;
+
+   cout << endl << count << endl;
 }
 
+// Problem 020
 
 
 
