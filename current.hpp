@@ -14,32 +14,9 @@
 void numberLetterCount();
 
 // Problem 018
-struct Node
-{
-   Node* leftParent, *rightParent;
-   Node* leftChild, *rightChild;
-   int cost;
-   int maxCost = 0;
-};
-
-class DiamondMap
-{
-private:
-   Node* root;
-   std::vector<Node*> lastLevel;
-public:
-   DiamondMap();
-   ~DiamondMap();
-
-   int findMaxPath();
-   
-};
-
-void pathSum();
+void maximumPathSum();
 
 
-// Problem 020
-void factSum();
-long double factorial(long double n);
+
 
 #endif /* CURRENT_HPP_ */

@@ -14,8 +14,7 @@
 // Main
 int main()
 {
-	//factSum();
-	//pathSum();
+	maximumPathSum();
 	return 0;
 }
 

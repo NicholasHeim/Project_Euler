@@ -24,6 +24,8 @@
 #include <vector>
 #include <cassert>
 
+#include "BigIntegerLibrary.hh"
+
 // File Directives
 
 // Completed Questions
@@ -46,5 +48,8 @@ using std::string;
 using std::stringstream;
 using std::stoi;
 using std::vector;
+
+// Lazy bug testing
+const string here = "Here";
 
 #endif /* HEADER_LIST_HPP_ */

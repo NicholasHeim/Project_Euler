@@ -585,6 +585,18 @@ void sundays()
 }
 
 // Problem 020
-
+void factSum()
+{
+   BigInteger fact = 1;
+   for (size_t i = 1; i < 101; ++i)
+      fact *= i;
+   
+   string number = bigIntegerToString(fact);
+   fact = 0;
+   for (size_t i = 0; i < number.size(); ++i)
+      fact += number[i] - '0';
+   
+   cout << fact << endl;
+}
 
 

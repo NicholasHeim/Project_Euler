@@ -62,6 +62,7 @@ void digitSum();
 
 
 
+
 // Problem 019
 enum Months
 {
@@ -72,5 +73,14 @@ enum Months
 };
 int intermediateSum(Months m, bool leapYear);
 void sundays();
+
+// Problem 020
+void factSum();
+
+
+
+
+
+
 
 #endif /* COMPLETED_HPP_ */
