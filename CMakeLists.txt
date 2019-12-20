@@ -1,0 +1,3 @@
+cmake_minimum_required (VERSION 3.10.2)
+
+add_executable(main main.cpp current.cpp Completed.cpp)
