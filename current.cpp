@@ -41,6 +41,6 @@ void maximumPathSum()
    // In a loop, extract a number from the string, keep the position of it. 
    // Set the sum of that position equal to the new number + max{sums[position], sums[position + 1]}
    // Iterate through all lines of the file in the vector, the maximum will end at position 0.   
-   
+   // Bounds checking is not needed here, as edge values have both values below it.
    
 }
